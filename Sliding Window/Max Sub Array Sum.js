@@ -10,8 +10,8 @@
   for (let i = 0; i < n; i++) {
     maxSum += arr[i];
   }
-
   tempSum = maxSum;
+
   // Start new loop after the first n elements.
   for (let i = n; i < arr.length; i++) {
   // From tempSum, subtract first element, add the next element.
