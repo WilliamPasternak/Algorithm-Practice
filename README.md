@@ -26,14 +26,14 @@ Simply finding a solution to a problem isn't enough, it is important to work tow
 <a target="_blank" href="https://github.com/WilliamPasternak/Dilution-Calculator">Dilution Calculator Web App</a> 
       <br />
         <a target="_blank" href="https://github.com/WilliamPasternak/Dilution-Calculator">
-          <img src="https://github.com/WilliamPasternak/Dilution-Calculator/raw/main/Dilution.gif" width="100%" alt="Matching Card Game"/>
+          <img src="https://github.com/WilliamPasternak/Dilution-Calculator/raw/main/Dilution.gif" width="100%" alt="Dilution Calculator App"/>
         </a>
     </td>
     <td width="33.3%" valign="top">
-<a target="_blank" href="https://github.com/WilliamPasternak/MovieNight">Little Armenia Cafe Website</a>
+<a target="_blank" href="https://github.com/WilliamPasternak/Little-Armenia-Cafe">Little Armenia Cafe Website</a>
         <br />
         <a target="_blank" href="https://github.com/WilliamPasternak/Little-Armenia-Cafe">
-          <img src="https://github.com/WilliamPasternak/Little-Armenia-Cafe/blob/main/Little%20Armenia%20Cafe/LittleArmeniaCafecom_Site_Overview.gif" width="100%" alt="Portfolio"/>
+          <img src="https://github.com/WilliamPasternak/Little-Armenia-Cafe/blob/main/Little%20Armenia%20Cafe/LittleArmeniaCafecom_Site_Overview.gif" width="100%" alt="Little Armenia Website"/>
         </a>
     </td>
   </tr>
