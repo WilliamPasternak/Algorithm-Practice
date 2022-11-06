@@ -14,7 +14,7 @@ function isAnagram(firstStr, secondStr) {
   // Check for secondStr values in lookup, decrement if present 
   for (second of secondStr) {
     if (!lookup[second]) return false;
-    lookup[second] -= 1;
+    lookup[second]--;
   }
   return true;
 }
