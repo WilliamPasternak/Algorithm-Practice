@@ -53,3 +53,22 @@ function bubbleSort(arr){
 }
 
 bubbleSort([8,1,2,3,4,5,6,7]);
+
+// Optimized BubbleSort with noSwaps 
+function bubbleSort(arr){ 
+  var noSwaps; // Creates a variable to monitor if a swap has been made.
+  for(var i = arr.length; i > 0; i--){
+    noSwaps = true;
+    for(var j = 0; j < i - 1; j++){
+      if(arr[j] > arr[j+1]){ // if first number > next number Swap Values,
+        var temp = arr[j];
+        arr[j] = arr[j+1];
+        arr[j+1] = temp;
+        noSwaps = false;   // Set noSwaps to False since a swap has been made      
+      }
+    }
+    if(noSwaps) break;    // If noSwaps is still true, stop sorting because it is already sorted.
+  }
+  return arr;
+}
+bubbleSort([8,1,2,3,4,5,6,7]);
