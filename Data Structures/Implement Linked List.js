@@ -9,14 +9,13 @@ class LinkedList {
 		// if list is empty
 		if (!this.tail){
 			this.head = new Node(value)
-			this.tail = new Node(value)
+			this.tail = this.head
 		} else {
 			let oldTail = this.tail  // Establish 'old tail'
 			this.tail = new Node(value) // Add new Tail node
 			oldTail.next = this.tail // Set next value of old tail, to current node
 			this.tail.prev = oldTail // Set prev value of new tail to old tail.
-      // Set head's next value to next element
-      if (!this.head.next) this.head.next = this.tail;
+      
 
 		}
 	}
@@ -99,11 +98,4 @@ class Node {
 
 // Create Linked List
 let list = new LinkedList()
-// Append to Linked List
-list.append('one')
-list.append('two')
-list.append('three')
 
-// Prepend
-list.prepend('zero')
-list.prepend('negative one')
